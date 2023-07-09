@@ -105,9 +105,103 @@ nav a:hover {
 }
 
 .info-mas p {
-  padding: 40px;
+  padding: 10px;
   font-size: 20px;
   width: 70%;
 
   text-align: center;
+}
+
+.cards {
+  background: rgb(110, 107, 141);
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.cards h2 {
+  font-size: 50px;
+}
+
+.cards p {
+  font-size: 30px;
+  color: white;
+}
+
+.cards-beneficios {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards-idea {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-idea p {
+  font-size: 20px;
+}
+
+.cards-plataforma {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.cards-plataforma p {
+  font-size: 20px;
+}
+
+.cards-seguro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-seguro p {
+  font-size: 20px;
+}
+
+.cards-idea img {
+  width: 200px;
+  height: 200px;
+}
+.cards-plataforma img {
+  width: 200px;
+  height: 200px;
+}
+
+.cards-seguro img {
+  width: 200px;
+  height: 200px;
+}
+
+.Contacto {
+  background: rgb(105, 102, 138);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contacto1 ol {
+  list-style: none;
 }
