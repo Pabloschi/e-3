@@ -11,6 +11,9 @@ nav {
   align-items: center;
 }
 
+main {
+  background: rgb(105, 102, 138);
+}
 ul {
   list-style: none;
   display: flex;
@@ -35,9 +38,10 @@ nav a:hover {
 /* hero-about */
 
 #hero {
-  max-width: 1200;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgb(110, 107, 141);
 
-  background: rgb(105, 102, 138);
   padding: 100px;
   display: flex;
   justify-content: center;
@@ -87,16 +91,19 @@ nav a:hover {
 
 /* logo grande */
 .logo-hero img {
-  width: 95%;
+  width: 400px;
+  height: 400px;
 }
 
 /* info */
 .info-mas {
+  max-width: 1200px;
+  margin: 0 auto;
   background: rgb(110, 107, 141);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 160px 505px;
+  padding: 50px;
 }
 .info {
   display: flex;
@@ -107,13 +114,15 @@ nav a:hover {
 .info-mas p {
   padding: 10px;
   font-size: 20px;
-  width: 70%;
+  width: 500px;
 
   text-align: center;
 }
 
 .cards {
   background: rgb(110, 107, 141);
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 80px;
   display: flex;
   flex-direction: column;
@@ -194,14 +203,70 @@ nav a:hover {
   height: 200px;
 }
 
-.Contacto {
-  background: rgb(105, 102, 138);
+#contacto {
+  background: rgb(110, 107, 141);
+  display: flex;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-.Contacto1 ol {
-  list-style: none;
+#contacto h3 {
+  font-size: 2rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  line-height: 40px;
+  background: rgb(103, 100, 133);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.contact-uno ul {
+  flex-direction: column;
+}
+
+.redes img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.img-container img {
+  width: 200px;
+}
+
+.redes {
+  display: flex;
+  gap: 20px;
+}
+
+.foot {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.foot-dentro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-dentro p {
+  font-size: 20px;
 }
